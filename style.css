@@ -5,14 +5,6 @@
 title {
     font-family: "Brush Script MT", cursive;
 }
-/*body {
-    background-image: url(VojFge.jpg);
-    background-size: cover;
-    background-position: center;
-    font-family: "Brush Script MT", cursive;
-    font-size: 30px;
-    color: white;
-}*/
 /*menu style*/
 .menu-bar{ 
     background:#2F6AE9;
@@ -52,41 +44,117 @@ title {
     height: 120vh;
     min-height: 500px;
 }
-.home .home-width{
+.home .max-width{
     margin:auto 0 auto 40px;
 }
-.home .home-width .text_1{
+.home .max-width .text_1{
     font-size: 45px;
     margin-left: 60px;
 }
-.home .home-width .text_2{
+.home .max-width .text_2{
     font-size: 45px;
     margin-left: 35px;
 }
-.home .home-width .text_3{
+.home .max-width .text_3{
     font-size: 50px;
     font-weight: 600;
     margin-left: 80px;
+}
+.home .max-width .text_3 span{
+    color:#1729AF;
+}
+.home .max-width a{
+    display: block;
+    list-style: none;
+    color:#DF2D24;
+    font-size: 50px;
+    margin-left: 150px;
 }
 /* sub staff style*/
 .sub-staff{
     display: none;
 }
-.move,.menu-bar ul li:hover .sub-staff{
+.menu-bar ul li:hover .sub-staff{
     display:block;
     position: absolute;
     background:#30E8F1; 
     margin-left: -10px;
     margin-top: 15px;
 }
-.move,.menu-bar ul li:hover .sub-staff ul{
+.menu-bar ul li:hover .sub-staff ul{
     display: block;
     margin:10px;
 }
-.move,.menu-bar ul li:hover .sub-staff ul li{
+.menu-bar ul li:hover .sub-staff ul li{
     width: 170px;
     padding-left: 15px;
-    border-bottom:1px outset #fff;
+    border-bottom:1px dotted     #fff;
+    background:transparent;
+    text-align: left;
+}
+/*court style*/
+.sub-court{
+    display: none;
+}
+.menu-bar ul li:hover .sub-court{
+    display:block;
+    position: absolute;
+    background:#30E8F1; 
+    margin-left: -10px;
+    margin-top: 15px;
+}
+.menu-bar ul li:hover .sub-court ul{
+    display: block;
+    margin:10px;
+}
+.menu-bar ul li:hover .sub-court ul li{
+    width: 170px;
+    padding-left: 15px;
+    border-bottom:1px dotted #fff;
+    background:transparent;
+    text-align: left;
+}
+/*Player Style*/
+.sub-player{
+    display: none;
+}
+.menu-bar ul li:hover .sub-player{
+    display:block;
+    position: absolute;
+    background:#30E8F1; 
+    margin-left: -10px;
+    margin-top: 15px;
+}
+.menu-bar ul li:hover .sub-player ul{
+    display: block;
+    margin:10px;
+}
+.menu-bar ul li:hover .sub-player ul li{
+    width: 170px;
+    padding-left: 15px;
+    border-bottom:1px dotted #fff;
+    background:transparent;
+    text-align: left;
+}
+/*Stats Style*/
+.sub-stats{
+    display: none;
+}
+.menu-bar ul li:hover .sub-stats{
+    display:block;
+    position: absolute;
+    background:#30E8F1; 
+    margin-left: -10px;
+    margin-top: 15px;
+}
+.menu-bar ul li:hover .sub-stats ul{
+    display: block;
+    margin:10px;
+}
+.menu-bar ul li:hover .sub-stats ul li{
+    width: 170px;
+    padding-left: 15px;
+    border-bottom:1px dotted #fff;
     background:transparent;
     text-align: left;
 }
