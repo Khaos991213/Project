@@ -14,7 +14,7 @@ title {
     color: white;
 }
 .menu-bar ul{
-    display: inline-flex;
+    display: flex;
     list-style: none;
 }
 .menu-bar ul li{
@@ -61,22 +61,22 @@ title {
     margin-left: 80px;
 }
 .home .max-width .text_3 span{
-    color:#1729AF;
+    color:#3582cf;
 }
 .home .max-width a{
     display: block;
     list-style: none;
-    color:#DF2D24;
+    color:#D42525;
     font-size: 50px;
     margin-left: 150px;
 }
-/* sub staff style*/
+/* sub staff style*/ 
 .sub-staff{
     display: none;
 }
 .menu-bar ul li:hover .sub-staff{
     display:block;
-    position: absolute;
+    position:fixed;
     background:#30E8F1; 
     margin-left: -10px;
     margin-top: 15px;
@@ -92,13 +92,54 @@ title {
     background:transparent;
     text-align: left;
 }
+.staff{
+    background-color: #F1F1B0;
+    font-family:"Poppins",sans-serif;
+    font-size: 20px;
+}
+.staff .staff-content{
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: center;
+    justify-content: space-between;
+}
+.staff .SubTitle {
+    font-family: 'Ubuntu',sans-serif;
+    text-align:center;
+    padding-top: 20px;
+    font-size: 40px;
+    padding-right: 50px;
+}
+.staff .staff-content .picture img{
+    height: 550px;
+    width:400px;
+    margin-left: 30px;
+    object-fit: cover;
+    border-radius: 6px;
+    padding-top: 20px;
+}
+.staff .staff-content .picture{
+    width :45%;
+}
+.staff .staff-content .info{
+    vertical-align:middle;  
+    padding-right: 180px;
+    width :40%;
+}
+.staff .staff-content .info span{
+    color:#D42525;  
+}
+.staff .staff-content .info p{
+    text-align: justify;
+    line-height:30px;
+}
 /*court style*/
 .sub-court{
     display: none;
 }
 .menu-bar ul li:hover .sub-court{
     display:block;
-    position: absolute;
+    position:fixed;
     background:#30E8F1; 
     margin-left: -10px;
     margin-top: 15px;
@@ -114,13 +155,54 @@ title {
     background:transparent;
     text-align: left;
 }
+.court{
+    background-color: #F1F1B0;
+    font-family:"Poppins",sans-serif;
+    font-size: 20px;
+}
+.court .court-content{
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: center;
+    justify-content: space-between;
+}
+.court .SubTitle {
+    font-family: 'Ubuntu',sans-serif;
+    text-align:center;
+    padding-top: 20px;
+    font-size: 40px;
+    padding-right: 50px;
+}
+.court .court-content .picture img{
+    height: 550px;
+    width:400px;
+    margin-left: 30px;
+    object-fit: cover;
+    border-radius: 6px;
+    padding-top: 20px;
+}
+.court .court-content .picture{
+    width :45%;
+}
+.court .court-content .info{
+    vertical-align:middle;  
+    padding-right: 180px;
+    width :40%;
+}
+.court .court-content .info span{
+    color:#D42525;  
+}
+.court .court-content .info p{
+    text-align: justify;
+    line-height:30px;
+}
 /*Player Style*/
 .sub-player{
     display: none;
 }
 .menu-bar ul li:hover .sub-player{
     display:block;
-    position: absolute;
+    position: fixed;
     background:#30E8F1; 
     margin-left: -10px;
     margin-top: 15px;
@@ -136,25 +218,155 @@ title {
     background:transparent;
     text-align: left;
 }
-/*Stats Style*/
-.sub-stats{
-    display: none;
+.player{
+    background-color: #F1F1B0;
+    font-family:"Poppins",sans-serif;
+    font-size: 20px;
 }
-.menu-bar ul li:hover .sub-stats{
-    display:block;
-    position: absolute;
-    background:#30E8F1; 
-    margin-left: -10px;
-    margin-top: 15px;
+.player .player-content{
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: center;
+    justify-content: space-between;
 }
-.menu-bar ul li:hover .sub-stats ul{
-    display: block;
-    margin:10px;
+.player .SubTitle {
+    font-family: 'Ubuntu',sans-serif;
+    text-align:center;
+    padding-top: 20px;
+    font-size: 40px;
+    padding-right: 50px;
 }
-.menu-bar ul li:hover .sub-stats ul li{
-    width: 170px;
-    padding-left: 15px;
-    border-bottom:1px dotted #fff;
-    background:transparent;
-    text-align: left;
+.player .player-content .picture img{
+    height: 550px;
+    width:400px;
+    margin-left: 30px;
+    object-fit: cover;
+    border-radius: 6px;
+    padding-top: 20px;
+}
+.player .player-content .picture{
+    width :45%;
+}
+.player .player-content .info{
+    vertical-align:middle;  
+    padding-right: 180px;
+    width :40%;
+}
+.player .player-content .info span{
+    color:#D42525;  
+}
+.player .player-content .info p{
+    text-align: justify;
+    line-height:30px;
+}
+/*about Style*/
+.about{
+    background-color: #F1F1B0;
+}
+.about .SubTitle {
+    font-family:  "Brush Script MT", cursive;
+    text-align:center;
+    padding-top: 20px;
+    font-size: 40px;
+    padding-right: 50px;
+}
+.about .max-width .text_1{
+    font-size: 45px;
+    font-family: "Brush Script MT", cursive;
+    text-align: center;
+}
+.about .max-width .text_2{
+    font-size: 45px;
+    font-family: "Brush Script MT", cursive;
+    text-align: center;
+}
+@media screen and (max-width : 500px){
+    .menu-bar{
+        float:none;
+    }
+    .menu-bar .ul{
+        display: block;
+        flex-direction: column;
+    }
+    .menu-bar .ul .li{
+        text-align: center;
+
+    }
+    .home .max-width .text_1{
+        font-size: 25px;
+        margin-left: 15px; 
+        
+    }
+    .home .max-width .text_2{
+        font-size: 25px;
+        margin-left: 15px;
+      
+    }
+    .home .max-width .text_3{
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 8px;
+        
+    }
+    .home .max-width a{
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 20px;
+        margin-top: 20px;
+        color:#D10909;
+    }
+    .home .max-width{
+        margin-top: 20px;
+    }
+    .staff .staff-content .info{
+        text-align:center;
+        padding-right: 2px;
+        margin-left: 20px;
+        width: 90%;
+    }
+    .staff .staff-content .info p{
+        line-height: 23px;
+        letter-spacing: 1px;
+        text-align:center;
+    }
+    .staff .SubTitle .fas{
+        margin:10px;
+    }
+    .staff .SubTitle{
+        padding-right: 20px;
+    }
+    .court .court-content .info{
+        text-align:center;
+        padding-right: 2px;
+        margin-left: 20px;
+        width: 90%;
+    }
+    .court .court-content .info p{
+        line-height: 23px;
+        letter-spacing: 1px;
+        text-align:center;
+    }
+    .court .SubTitle .fas{
+        margin:20px;
+    }
+    .court .SubTitle{
+        padding-right: 20px;
+    }
+    .player .player-content .info{
+        text-align:center;
+        padding-right: 2px;
+        margin-left: 20px;
+        width: 90%;
+    }
+    .player .player-content .info p{
+        line-height: 23px;
+        letter-spacing: 1px;
+        text-align:center;
+    }
+    .player .SubTitle .fas{
+        margin:20px;
+    }
+    .player .SubTitle{
+        padding-right: 20px;
+    }
 }
