@@ -5,29 +5,88 @@
 title {
     font-family: "Brush Script MT", cursive;
 }
-body {
+/*body {
     background-image: url(VojFge.jpg);
     background-size: cover;
     background-position: center;
     font-family: "Brush Script MT", cursive;
     font-size: 30px;
     color: white;
-}
+}*/
+/*menu style*/
 .menu-bar{ 
-    background:#2B28DC;
+    background:#2F6AE9;
     text-align: left;
+    font-family: "Brush Script MT", cursive;
+    font-size: 30px;
+    color: white;
 }
 .menu-bar ul{
     display: inline-flex;
     list-style: none;
-
 }
 .menu-bar ul li{
-    width: 220px;
+    width: 215px;
     margin: 10px;
     padding: 10px;
 }
 .menu-bar ul li a{
     text-decoration: none;
     color:#fff;
+}
+.move,.menu-bar ul li:hover{
+    background:#30E8F1; 
+    border-radius:3px;
+}
+.menu-bar .fas{
+    margin: 5px;
+}
+/* home page */
+.home{
+    display:flex;
+    background-image: url(VojFge.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family:  "Brush Script MT", cursive;
+    color: white;
+    height: 120vh;
+    min-height: 500px;
+}
+.home .home-width{
+    margin:auto 0 auto 40px;
+}
+.home .home-width .text_1{
+    font-size: 45px;
+    margin-left: 60px;
+}
+.home .home-width .text_2{
+    font-size: 45px;
+    margin-left: 35px;
+}
+.home .home-width .text_3{
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 80px;
+}
+/* sub staff style*/
+.sub-staff{
+    display: none;
+}
+.move,.menu-bar ul li:hover .sub-staff{
+    display:block;
+    position: absolute;
+    background:#30E8F1; 
+    margin-left: -10px;
+    margin-top: 15px;
+}
+.move,.menu-bar ul li:hover .sub-staff ul{
+    display: block;
+    margin:10px;
+}
+.move,.menu-bar ul li:hover .sub-staff ul li{
+    width: 170px;
+    padding-left: 15px;
+    border-bottom:1px outset #fff;
+    background:transparent;
+    text-align: left;
 }
