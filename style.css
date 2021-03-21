@@ -7,7 +7,7 @@ title {
 }
 /*menu style*/
 .menu-bar{ 
-    background:#2F6AE9;
+    background:#070707;
     text-align: left;
     font-family: "Brush Script MT", cursive;
     font-size: 30px;
@@ -104,19 +104,21 @@ title {
     justify-content: space-between;
 }
 .staff .SubTitle {
-    font-family: 'Ubuntu',sans-serif;
+    font-family: "Brush Script MT", cursive;
     text-align:center;
     padding-top: 20px;
     font-size: 40px;
     padding-right: 50px;
 }
 .staff .staff-content .picture img{
-    height: 550px;
-    width:400px;
-    margin-left: 30px;
+    height: 400px;
+    width: 250px;
+
+    margin-left:25%;
+    margin-top:10%;
     object-fit: cover;
     border-radius: 6px;
-    padding-top: 20px;
+    
 }
 .staff .staff-content .picture{
     width :45%;
@@ -125,6 +127,7 @@ title {
     vertical-align:middle;  
     padding-right: 180px;
     width :40%;
+    margin-top: 20px;
 }
 .staff .staff-content .info span{
     color:#D42525;  
@@ -167,15 +170,15 @@ title {
     justify-content: space-between;
 }
 .court .SubTitle {
-    font-family: 'Ubuntu',sans-serif;
+    font-family:"Brush Script MT", cursive;
     text-align:center;
     padding-top: 20px;
     font-size: 40px;
     padding-right: 50px;
 }
 .court .court-content .picture img{
-    height: 550px;
-    width:400px;
+    height: 400px;
+    width:300px;
     margin-left: 30px;
     object-fit: cover;
     border-radius: 6px;
@@ -230,7 +233,7 @@ title {
     justify-content: space-between;
 }
 .player .SubTitle {
-    font-family: 'Ubuntu',sans-serif;
+    font-family: "Brush Script MT", cursive;
     text-align:center;
     padding-top: 20px;
     font-size: 40px;
@@ -280,7 +283,7 @@ title {
     font-family: "Brush Script MT", cursive;
     text-align: center;
 }
-@media screen and (max-width : 500px){
+@media screen and (max-width : 1200px){
     .menu-bar{
         float:none;
     }
@@ -318,12 +321,25 @@ title {
     .home .max-width{
         margin-top: 20px;
     }
+    .menu-bar ul li:hover .sub-staff ul li{
+        width: 55px;
+        padding-left: 5px;
+    }
+    .staff .staff-content .picture img{
+        margin-left: 70%;
+        vertical-align: middle;
+        height: 280px;
+        width:160px;
+        margin-top: 10px;
+    }
     .staff .staff-content .info{
         text-align:center;
+        font-size: 15px;
         padding-right: 2px;
         margin-left: 20px;
         width: 90%;
     }
+    
     .staff .staff-content .info p{
         line-height: 23px;
         letter-spacing: 1px;
@@ -335,10 +351,23 @@ title {
     .staff .SubTitle{
         padding-right: 20px;
     }
+    .menu-bar ul li:hover .sub-court ul li{
+        width: 60px;
+        padding-left: 0px;
+    }
+    .court .court-content .picture img{
+        margin-left: 70%;
+        vertical-align: middle;
+        height: 280px;
+        width:160px;
+        margin-top: 10px;
+    }
     .court .court-content .info{
         text-align:center;
+        font-size: 15px;
         padding-right: 2px;
         margin-left: 20px;
+        margin-top: 10px;
         width: 90%;
     }
     .court .court-content .info p{
@@ -352,8 +381,20 @@ title {
     .court .SubTitle{
         padding-right: 20px;
     }
+    .menu-bar ul li:hover .sub-player ul li{
+        width: 60px;
+        padding-left: 5px;
+    }
+    .player .player-content .picture img{
+        margin-left: 70%;
+        vertical-align: middle;
+        height: 280px;
+        width:160px;
+        margin-top: 10px;
+    }
     .player .player-content .info{
         text-align:center;
+        font-size: 15px;
         padding-right: 2px;
         margin-left: 20px;
         width: 90%;
