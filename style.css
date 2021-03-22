@@ -283,6 +283,9 @@ title {
     text-align: center;
 }
 @media screen and (max-width : 1200px){
+    .home{
+        background-image: url(Warriors2.jpg );
+    }
     .menu-bar{
         float:none;
     }
@@ -327,13 +330,12 @@ title {
     .staff .staff-content .picture img{
         margin-left: 70%;
         vertical-align: middle;
-        height: 280px;
-        width:160px;
-        margin-top: 10px;
+        height: 480px;
+        width:80%;
     }
     .staff .staff-content .info{
         text-align:center;
-        font-size: 15px;
+        font-size: 10px;
         padding-right: 2px;
         margin-left: 20px;
         width: 90%;
@@ -357,13 +359,13 @@ title {
     .court .court-content .picture img{
         margin-left: 70%;
         vertical-align: middle;
-        height: 280px;
-        width:160px;
+        height: 480px;
+        width:80%;
         margin-top: 10px;
     }
     .court .court-content .info{
         text-align:center;
-        font-size: 15px;
+        font-size: 10px;
         padding-right: 2px;
         margin-left: 20px;
         margin-top: 10px;
@@ -387,13 +389,13 @@ title {
     .player .player-content .picture img{
         margin-left: 70%;
         vertical-align: middle;
-        height: 280px;
-        width:160px;
+        height: 480px;
+        width:80%;
         margin-top: 10px;
     }
     .player .player-content .info{
         text-align:center;
-        font-size: 15px;
+        font-size: 10px;
         padding-right: 2px;
         margin-left: 20px;
         width: 90%;
